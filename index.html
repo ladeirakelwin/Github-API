@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Search</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <form action="" class="reqUser">
+      <label for="" class="username">
+        Search for the desired github username
+      </label>
+      <input type="text" class="userInput">
+      <button class="reqSubmit" type="submit">Submit</button>
+    </form>
+  </header>
+
+  <main class="user">
+
+    <div class="userInfo"></div>
+
+    <div class="repos"></div>
+
+  </main>
+  <script src="js/models/Repos.js"></script>
+  <script src="js/views/ReposView.js"></script>
+  <script src="js/controllers/ReposController.js"></script>
+  <script src="js/views/UsuarioView.js"></script>
+  <script src="js/models/Usuario.js"></script>
+  <script src="js/controllers/UsuarioController.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

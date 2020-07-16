@@ -1,0 +1,124 @@
+*{
+  box-sizing: border-box
+}
+
+html{
+  width: 100%;
+  heigth: 100%
+  }
+
+body{
+  display:flex;
+  flex-flow: wrap;
+}
+
+.header{
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  aling-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  background: #000;
+  font-size: 1rem;
+  
+}
+
+.reqUser{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  padding: 0 20px;
+  font-family: 'Sora', sans-serif;
+}
+
+.reqUser *, .userInfo *{
+  font-family: 'Sora', sans-serif;
+  margin-bottom: 10px;
+}
+
+.username{
+  color: #FFF;
+}
+
+.userInput, .reqSubmit{
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.reqSubmit{
+  background: #FFF;
+}
+
+.user{
+  display: flex;
+  width: 100%;
+  flex-flow: column wrap;
+}
+
+.userInfo{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  width: 100%;
+
+}
+
+.userInfo *{
+  font-size: 1rem;
+}
+
+.avatar{
+  width:150px;
+  border-radius: 25px
+}
+
+.infoList{
+  display: flex;
+  flex-flow: row;
+
+}
+
+.infoList *{
+  margin: 0.5rem 1rem;
+}
+
+.repos{
+  display: flex;
+  width: 100%;
+  flex-flow: column wrap;
+}
+
+.reposItem{
+  width: 100%;
+  border-bottom: 1px solid #000;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 20px 0;
+  font-family: 'Sora', sans-serif;
+}
+
+.reposImg{
+  border: 2px solid #000;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+
+.infoListRepos *{
+  margin: 0.5rem 1rem;
+  font-size: 1rem;
+}
+
+
+.infoListRepos{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  width: 90%
+
+}
